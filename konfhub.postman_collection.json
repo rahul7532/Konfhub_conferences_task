@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "a79bed28-a069-494c-8212-bb5e314875e6",
+		"name": "konfhub",
+		"description": "api endpoints to test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://o136z8hk40.execute-api.us-east-1.amazonaws.com/dev/get-list-of-conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://o136z8hk40.execute-api.us-east-1.amazonaws.com/dev/get-list-of-conferences",
+					"protocol": "https",
+					"host": [
+						"o136z8hk40",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"get-list-of-conferences"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
